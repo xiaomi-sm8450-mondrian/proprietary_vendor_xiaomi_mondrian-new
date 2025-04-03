@@ -6,31 +6,14 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/mondrian
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_workspaceFileXml.qwsp \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/diwali_idp/IDP_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp/IDP_diwali_acdb_cal.acdb \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/diwali_idp/IDP_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp/IDP_diwali_workspaceFileXml.qwsp \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_acdb_cal.acdb \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_workspaceFileXml.qwsp \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_acdb_cal.acdb \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_overlay_dynamic.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_overlay_static.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/mixer_paths_waipio_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_waipio_mtp.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/resourcemanager_waipio_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_waipio_mtp.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/backend_conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/backend_conf.xml \
+    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/waipio_mtp/Tutu_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/Tutu_acdb_cal.acdb \
+    vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/waipio_mtp/Tutu_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/Tutu_workspaceFileXml.qwsp \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/102_SummerDay.png \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/103_Fantasy.png \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/104_Meet.png \
@@ -430,16 +413,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/camera/xiaomi/thirdpartyrawsupernightyuv.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/thirdpartyrawsupernightyuv.json \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/camera/xiaomi/thirdpartysnapshot.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/thirdpartysnapshot.json \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/camera/xiaomiSceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomiSceneDetection.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/displayconfig/display_id_4630946545580055170.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946545580055170.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/kvh2xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/kvh2xml.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/mdss_dsi_m11a_42_02_0a_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_m11a_42_02_0a_dsc_cmd_mi.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/sensors/config/qmc6308_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qmc6308_0.json \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/sensors/config/qsh_camera.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_camera.json \
@@ -538,7 +518,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-videochat.conf \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/thermal-yuanshen.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-yuanshen.conf \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/vibrator/effect_0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_0.bin \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/vibrator/effect_2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_2.bin \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/vibrator/effect_3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_3.bin \
@@ -867,7 +846,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.mcx.policy.xr \
     com.qualcomm.qti.mcx.usecase.extension \
-    audio.primary.taro \
     camera.qcom \
     camera.xiaomi \
     com.qti.chi.override \
@@ -882,7 +860,6 @@ PRODUCT_PACKAGES += \
     libSnpeHtpV69Stub \
     libTrueSight \
     libXMFaceFocus \
-    libagm \
     libaidenoiser \
     libalAILDC \
     libalAI_Seg \
@@ -897,7 +874,6 @@ PRODUCT_PACKAGES += \
     libanc_hdr \
     libanc_supervq \
     libancbase \
-    libar-pal \
     libarc_sat \
     libarc_translate \
     libarcsoft_beautyshot \
@@ -950,7 +926,6 @@ PRODUCT_PACKAGES += \
     libipebpsstriping170 \
     libipebpsstriping480 \
     libjpege \
-    libkaraokepal \
     libmctfengine_stub \
     libmfGhostDetection \
     libmiStereoFactoryRemapBasicLib \

@@ -7718,50 +7718,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.primary.taro",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/audio.primary.taro.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "liblog",
-                "libcutils",
-                "libaudioutils",
-                "libexpat",
-                "libhidlbase",
-                "libprocessgroup",
-                "libutils",
-                "libultrasound_notify",
-                "libar-pal",
-                "libresampler",
-                "libhardware_legacy",
-                "libaudiocloudctrl",
-                "gyro_fusion_interface",
-                "libstagefright_foundation",
-                "libtinyalsa",
-                "libxlog",
-                "vendor.qti.hardware.pal@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "camera.qcom",
     owner: "xiaomi",
     strip: {
@@ -7882,6 +7838,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/com.qti.chi.override.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -8224,38 +8181,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libSNPE",
                 "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libagm",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libagm.so",
-            ],
-            shared_libs: [
-                "libar-gsl",
-                "liblog",
-                "liblx-osal",
-                "libaudioroute",
-                "libats",
-                "libtinyalsa",
-                "libaudio_log_utils",
-                "libexpat",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
             ],
         },
     },
@@ -8641,41 +8566,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libar-pal",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libar-pal.so",
-            ],
-            shared_libs: [
-                "libar-gsl",
-                "liblog",
-                "libexpat",
-                "liblx-osal",
-                "libaudioroute",
-                "libcutils",
-                "libaudioroute_ext",
-                "libxlog",
-                "libtinyalsa",
-                "libtinycompress",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -9291,6 +9181,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcamxcommonutils.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -10281,37 +10172,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libkaraokepal",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkaraokepal.so",
-            ],
-            shared_libs: [
-                "libaudioroute",
-                "libaudioutils",
-                "libcutils",
-                "libexpat",
-                "liblog",
-                "libar-pal",
-                "audio.primary.taro",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmctfengine_stub",
     owner: "xiaomi",
     strip: {
@@ -10934,6 +10794,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmialgoengine.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",

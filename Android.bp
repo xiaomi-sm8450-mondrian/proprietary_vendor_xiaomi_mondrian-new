@@ -12503,6 +12503,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcdsprpc",
                 "libSNPE",
+                "libc++_shared",
                 "libmialgo_utils",
                 "libm",
                 "libdl",
